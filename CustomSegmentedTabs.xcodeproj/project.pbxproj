@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		41C1B6382CAD7C71008986F1 /* CustomSegmentedTabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B6372CAD7C71008986F1 /* CustomSegmentedTabsApp.swift */; };
-		41C1B63A2CAD7C71008986F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B6392CAD7C71008986F1 /* ContentView.swift */; };
 		41C1B63C2CAD7C75008986F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C1B63B2CAD7C75008986F1 /* Assets.xcassets */; };
 		41C1B63F2CAD7C75008986F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C1B63E2CAD7C75008986F1 /* Preview Assets.xcassets */; };
+		41C1B6482CAD7CB5008986F1 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B6472CAD7CB5008986F1 /* TabModel.swift */; };
+		41C1B64A2CAD7D98008986F1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C1B6492CAD7D98008986F1 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41C1B6342CAD7C71008986F1 /* CustomSegmentedTabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomSegmentedTabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C1B6372CAD7C71008986F1 /* CustomSegmentedTabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedTabsApp.swift; sourceTree = "<group>"; };
-		41C1B6392CAD7C71008986F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41C1B63B2CAD7C75008986F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41C1B63E2CAD7C75008986F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41C1B6472CAD7CB5008986F1 /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		41C1B6492CAD7D98008986F1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		41C1B6362CAD7C71008986F1 /* CustomSegmentedTabs */ = {
 			isa = PBXGroup;
 			children = (
+				41C1B6462CAD7C94008986F1 /* View */,
+				41C1B6452CAD7C8F008986F1 /* Model */,
 				41C1B6372CAD7C71008986F1 /* CustomSegmentedTabsApp.swift */,
-				41C1B6392CAD7C71008986F1 /* ContentView.swift */,
 				41C1B63B2CAD7C75008986F1 /* Assets.xcassets */,
 				41C1B63D2CAD7C75008986F1 /* Preview Content */,
 			);
@@ -65,6 +68,22 @@
 				41C1B63E2CAD7C75008986F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41C1B6452CAD7C8F008986F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41C1B6472CAD7CB5008986F1 /* TabModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		41C1B6462CAD7C94008986F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41C1B6492CAD7D98008986F1 /* HomeView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41C1B63A2CAD7C71008986F1 /* ContentView.swift in Sources */,
+				41C1B6482CAD7CB5008986F1 /* TabModel.swift in Sources */,
+				41C1B64A2CAD7D98008986F1 /* HomeView.swift in Sources */,
 				41C1B6382CAD7C71008986F1 /* CustomSegmentedTabsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
